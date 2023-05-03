@@ -1,0 +1,39 @@
+.our-values {
+  background-color: #d8e3cc;
+}
+
+.our-values h2 {
+  font-family: monarcha, serif;
+  font-size: 28px;
+  color: #003c01;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.our-values p {
+  font-family: roboto, sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.our-values img {
+}
+
+@media (min-width: 1200px) {
+  .our-values h2 {
+    font-family: monarcha, serif;
+    font-size: 75px;
+    color: #003c01;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+
+    .our-values p {
+      font-family: roboto, sans-serif;
+      font-weight: lighter;
+      font-size: 25px;
+      line-height: 28px;
+    }
+  }
+}
