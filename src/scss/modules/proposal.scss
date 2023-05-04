@@ -1,0 +1,32 @@
+.proposal h2 {
+  font-family: monarcha, serif;
+  font-size: 28px;
+  color: #003c01;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  .proposal h2 {
+    font-family: monarcha, serif;
+    font-size: 75px;
+    color: #003c01;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+  }
+}
+
+.arrow {
+  height: 64px;
+}
+
+.product-card {
+  height: 480px;
+  margin-bottom: -20px;
+}
+
+h3 {
+  font-family: roboto, sans-serif;
+  font-weight: lighter;
+}

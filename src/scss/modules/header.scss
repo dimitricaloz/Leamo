@@ -10,7 +10,11 @@ header {
 }
 
 .burgermenu {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
   img {
-    height: 49px;
+    height: 42px;
   }
 }
