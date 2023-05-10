@@ -22,3 +22,19 @@ header {
 .logo-craft {
   margin-top: 221px;
 }
+
+@media (max-width: 1200px) {
+  .burgermenu {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    img {
+      height: 24px;
+    }
+  }
+
+  .logoleamo img {
+    max-width: 104px;
+  }
+}
