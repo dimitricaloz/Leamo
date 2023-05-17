@@ -1,7 +1,9 @@
+@import "swiper/swiper";
+@import "bootstrap/scss/bootstrap-grid";
+
 @import "base";
 @import "layout";
 @import "modules/header.scss";
 @import "modules/our-values";
 @import "modules/proposal";
-@import "bootstrap/scss/bootstrap-grid";
-@import "swiper/swiper";
+@import "modules/recipe";
