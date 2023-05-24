@@ -1,0 +1,35 @@
+.alterfood p {
+  font-family: roboto, sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 35px;
+}
+
+@media (min-width: 1200px) {
+  .alterfood p {
+    font-family: roboto, sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+.button-to {
+  height: 60px;
+  width: 300px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 30px;
+  border: solid black;
+  margin-bottom: 100px;
+  margin-top: 70px;
+}
+
+.button-to a {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
