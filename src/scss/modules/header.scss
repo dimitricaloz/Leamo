@@ -34,3 +34,34 @@ header {
     max-width: 104px;
   }
 }
+
+.burger-menu {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+.burger-menu.is-active {
+}
+
+.menu {
+  background-color: #7f9ac6;
+  width: 200px;
+  padding: 10px 20px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.4s;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.menu.is-open {
+  opacity: 1;
+}
+
+ul a {
+  color: white;
+}
