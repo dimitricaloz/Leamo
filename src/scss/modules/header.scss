@@ -33,6 +33,10 @@ header {
   .logoleamo img {
     max-width: 104px;
   }
+
+  .menu {
+    height: 410px;
+  }
 }
 
 .burger-menu {
@@ -40,22 +44,21 @@ header {
   margin-bottom: 20px;
   padding: 10px 20px;
   cursor: pointer;
-  transition: background-color 0.4s;
-}
-
-.burger-menu.is-active {
+  position: fixed;
+  z-index: 1;
 }
 
 .menu {
   background-color: #7f9ac6;
-  width: 200px;
+  width: 500px;
   padding: 10px 20px;
-  text-align: center;
+  text-align: left;
   opacity: 0;
   transition: opacity 0.4s;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 120px;
 }
 
 .menu.is-open {
@@ -64,4 +67,12 @@ header {
 
 ul a {
   color: white;
+  font-size: 25px;
+}
+
+ul li {
+  border-bottom: solid 0.5px white;
+  list-style-type: none;
+  padding-bottom: 5px;
+  margin-top: 5px;
 }
